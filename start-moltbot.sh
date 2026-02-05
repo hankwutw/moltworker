@@ -259,7 +259,7 @@ if (isOpenRouter) {
     config.agents.defaults.models['openrouter/openai/gpt-4o-mini'] = { alias: 'GPT-4o Mini' };
     config.agents.defaults.models['openrouter/google/gemini-2.0-flash-001'] = { alias: 'Gemini 2.0 Flash' };
     config.agents.defaults.models['openrouter/deepseek/deepseek-chat'] = { alias: 'DeepSeek' };
-    config.agents.defaults.model.primary = 'openrouter/moonshotai/kimi-k2.5';
+    config.agents.defaults.model.primary = 'openrouter/moonshotai/gemini-2.0-flash-001';
 } else if (isOpenAI) {
     // Create custom openai provider config with baseUrl override
     // Omit apiKey so moltbot falls back to OPENAI_API_KEY env var
